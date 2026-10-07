@@ -1,0 +1,13 @@
+# Python 3.12+. Install PyTorch with CUDA first:
+#   pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu124
+fastapi==0.141.1
+uvicorn==0.54.0
+pillow==12.3.0
+pillow-heif==1.8.0
+rawpy==0.27.1
+av==18.1.0
+reverse_geocoder==1.5.1
+transformers==5.17.0
+accelerate==1.15.0
+bitsandbytes==0.50.2
+huggingface_hub==1.33.0

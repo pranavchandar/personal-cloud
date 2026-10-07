@@ -1,0 +1,26 @@
+# Personal settings: paths and the locked-folder password hash
+config.json
+
+# The index, thumbnails and their SQLite side files (-wal, -shm)
+photos.db*
+thumbs.db*
+
+# Runtime output
+*.log
+*.out
+*.err
+
+# Environment
+venv/
+__pycache__/
+
+# One-off investigation scripts from development, kept locally
+add_index.py
+analyze_value.py
+bench*.py
+check_durability.py
+check_reel.py
+diag.py
+inspect_tags.py
+reel_paths.py
+verify_reel.py
